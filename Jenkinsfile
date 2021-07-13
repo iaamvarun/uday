@@ -38,7 +38,7 @@ pipeline{
                 branch 'master'
             }
             steps{
-                echo "deploy to test"
+                echo "deploy to prod"
             }
         }
     }
