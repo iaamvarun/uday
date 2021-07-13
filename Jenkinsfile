@@ -30,7 +30,7 @@ pipeline{
                 branch 'test'
             }
             steps{
-                echo "deploy to test"
+                echo "Deploy to Test"
             }
         }
         stage("Deploy to prod"){
